@@ -57,21 +57,21 @@ A entrega deve ser pelo GitHub, consistindo tanto do código desenvolvido quanto
 
 Copie os arquivos da tarefa anterior:
 
-- [ ] urenderer/node/node.py
-- [ ] urenderer/node/camera.py
-- [ ] urenderer/aplication/runtime.py: copie **apenas** as funções que implementou na última tarefa.
+- [X] urenderer/node/node.py
+- [X] urenderer/node/camera.py
+- [X] urenderer/aplication/runtime.py: copie **apenas** as funções que implementou na última tarefa.
 
 
 Os arquivos indicados possuem mais informações quando necessário. Observe que, nos entrypoints, também pode ser necessário editar os arquivos de shaders `.vs` e `.fs`
 
-- [ ] Analise o entrypoint 00-hello.py. Ele contém a renderização de um triângulo utilizando OpenGL
+- [X] Analise o entrypoint 00-hello.py. Ele contém a renderização de um triângulo utilizando OpenGL
 
 ## Renderizando utilizando nossa aplicação
 
-- [ ] urenderer/renderer/opengl/shader.py: implemente a compilação e linkagem de shaders, assim como o seu uso e uso de uniforms.
-- [ ] urenderer/geometry/mesh/mesh.py: implemente a geração e uso dos buffers de uma mesh.
-- [ ] urenderer/renderer/opengl/opengl_renderer.py: implemente a inicialização, uso das transformações e exibição do buffer de renderização.
-- [ ] Entrypoint 01-hello_cube.py: implemente o shader para utilizar as transformações de coordenadas e verifique o funcionamento do renderizador.
+- [X] urenderer/renderer/opengl/shader.py: implemente a compilação e linkagem de shaders, assim como o seu uso e uso de uniforms.
+- [X] urenderer/geometry/mesh/mesh.py: implemente a geração e uso dos buffers de uma mesh.
+- [X] urenderer/renderer/opengl/opengl_renderer.py: implemente a inicialização, uso das transformações e exibição do buffer de renderização.
+- [X] Entrypoint 01-hello_cube.py: implemente o shader para utilizar as transformações de coordenadas e verifique o funcionamento do renderizador.
 
 ## Texturas
 
