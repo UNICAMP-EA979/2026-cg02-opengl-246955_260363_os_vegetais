@@ -77,7 +77,8 @@ class Runtime:
             for child in node.children:
                 ## SEU CÓDIGO AQUI #####################################################
                 # Crie a transformação do nó filho, concatenando com as transformações anteriores
-
+                child_transformation = np.matmul(transformation, child.model_transform)
+                
                 #########################################################################
 
                 # Add child to the processing queue
